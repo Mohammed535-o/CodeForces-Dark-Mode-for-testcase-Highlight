@@ -1,0 +1,26 @@
+
+.problem-statement .test-example-line-even
+{
+    background-color: rgb(0, 0, 0);
+    /* color : rgb(251, 255, 0); */
+    font-weight: bolder;
+    color : red;
+
+}
+
+/* .problem-statement .test-example-line
+{
+    background-color: red;
+} */
+
+.problem-statement .test-example-line-odd
+{
+    color: red;
+    font-weight: bold;
+}
+
+.output pre
+{
+    color : red;
+    font-weight: bold;
+}

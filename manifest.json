@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 2,
+    "name" : "codeforces white remover",
+    "version" : "1.0",
+
+    "description" : "this extension removes the highlighted test case's background color from codeforces",
+
+    "content_scripts" : [
+        {
+            "matches": ["<all_urls>"],
+            "js" : ["app.js"],
+            "css" : ["app.css"]
+        }
+    ]
+}
